@@ -1,0 +1,49 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(178.31deg, #FFFFFF -0.21%, #DEEEFF 112.17%);
+    min-height: 1024px;
+}
+
+.header {
+    max-width: 1440px;
+    height: 189px;
+    background: linear-gradient(0deg, #389AFF 0%, #0E83F6 100%);
+    position: relative;
+
+    &-logo {
+        position: absolute;
+        width: 128px;
+        height: 77px;
+        left: 36px;
+        top: 56px;
+    }
+
+    &-web {
+        position: absolute;
+        width: 122px;
+        height: 23px;
+        left: 87px;
+        top: 133px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    width: 1051px;
+    height: 901px;
+    left: 195px;
+    top: 78px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.134807);
+}

@@ -1,0 +1,100 @@
+.chat-container {
+    height: 901px;
+    width: 439px;
+    background: #F2F2F2;
+
+    &-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10.57px;
+
+        &-user {
+            width: 54.43px;
+            height: 54.43px;
+            background-image: url(../../images/user.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            margin-left: 19px;
+            margin-top: 13px;
+        }
+
+        &-settings {
+            margin-top: 31px;
+            margin-right: 27.2px;
+
+            &-circle {
+                width: 4.8px;
+                height: 4.8px;
+                border-radius: 50%;
+                background: #7B7B7B;
+                margin-bottom: 2.4px;
+            }
+        }
+    }
+
+    &-search {
+        display: flex;
+        align-items: center;
+        width: 408px;
+        height: 60px;
+        background: #ffffff;
+        margin-left: 16px;
+        margin-bottom: 9px;
+
+        input {
+            padding-left: 43px;
+            margin-left: 15px;
+            height: 30px;
+            width: 330px;
+            color: #248FFB;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: 0.01px;
+            border: none;
+            background-image: url(../../images/Search.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: left 5px top 5px;
+            outline: none;
+
+            &::placeholder {
+                color: #248FFB;
+            }
+        }
+    }
+
+    &-result {
+        height: 738px;
+        width: 408px;
+        background: #FFFFFF;
+        margin-left: 16px;
+
+        &-title {
+            text-align: center;
+            color: #7B7B7B;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 34px;
+            padding-top: 51px;
+        }
+
+        &-history {
+            color: #7B7B7B;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            padding-top: 22.75px;
+        }
+
+        &-img {
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+}
