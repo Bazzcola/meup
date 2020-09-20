@@ -1,0 +1,71 @@
+.none-container-profile {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 535px;
+    min-height: 901px;
+
+    &-header {
+        margin-top: 36px;
+        display: flex;
+        height: 130px;
+        border-bottom: 1px solid #E6E7E8;
+
+        &-user {
+            width: 100px;
+            height: 100px;
+            margin-right: 16px;
+            background-image: url(../../images/Oval.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            position:relative;
+            svg{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+}
+
+.none-user-information-name {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    margin-top:20px;
+}
+.none-user-information-tel {
+    margin-top:10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.0115455px;
+    color: #020202;
+}
+.none-user-infinite-list {
+    overflow-y: auto;
+    height: 618px;
+    width: 535px;
+    padding-top:60px;
+    &-google{
+        width:351px;
+        margin:0 auto;
+        text-align: center;
+        a{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 34px;
+            color: #7B7B7B;
+        }
+    }
+}
+.none-user-buttons {
+    height: 115px;
+    width: 535px;
+    border-bottom: 1px solid #E6E7E8;
+}

@@ -1,24 +1,24 @@
-import React from "react";
+import React from 'react';
 import "../../static/meProfile/MeProfile.scss";
-import check from "../../images/check.png";
 import contacts from "../../images/contacts.png";
 export const MeProfile = () => {
   return (
     <div className="container-profile">
       <div className="container-profile-header">
         <div className="container-profile-header-user"></div>
-        <div className="container-profile-header-information">
-          <div className="user-information-name">
-            <p> Maria Naftali,</p>
-            <span>35</span>
-            <span className="button-check">
-              <img src={check} alt="" />
-            </span>
-          </div>
-          <div className="user-information-tel"> 052 - 8360548 </div>
-          <div className="user-information-email">
-            <a href="123"> talnaftaly @gmail.com </a>
-          </div>
+          <div className="container-profile-header-information">
+            <div className="user-information-name">
+              <p> Maria Naftali,</p>
+              <span>35</span>
+              <div className="round">
+                <input type="checkbox" id="checkbox" defaultChecked/>
+                <label htmlFor="checkbox"></label>
+              </div>
+            </div>
+            <div className="user-information-tel"> 052 - 8360548 </div>
+            <div className="user-information-email">
+              <a href="123"> talnaftaly @gmail.com </a>
+            </div>
           <div className="user-information-description"> work work work </div>
         </div>
       </div>
